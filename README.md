@@ -85,8 +85,8 @@ OSNet преобразует изображение человека в числ
 ### 1. Клонирование репозитория
 
 ```bash
-git clone <ССЫЛКА_НА_РЕПОЗИТОРИЙ>
-cd Computer_vision
+git clone https://github.com/Elemanty/computer-vision.git
+cd computer-vision
 ```
 
 ### 2. Создание виртуального окружения
