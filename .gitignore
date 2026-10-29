@@ -1,0 +1,41 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+
+# Секреты и локальные настройки
+.env
+.env.*
+!.env.example
+
+# Видео и результаты обработки
+videos/*
+!videos/README.md
+outputs/*
+!outputs/README.md
+
+# Извлечённые изображения людей
+*.jpg
+*.jpeg
+*.png
+
+# Веса и чекпойнты моделей
+*.pt
+*.pth
+*.onnx
+*.engine
+models/*
+!models/README.md
+
+# Временные и системные файлы
+*.log
+.DS_Store
+Thumbs.db
+# Локальный тест Re-ID
+src/test_reid.py
